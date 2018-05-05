@@ -32,7 +32,7 @@ function sendMessage(chat_id, message){
 }
 
 //This is the route the API will call
-app.post('/new-message', function(req, res) {
+app.post('/reply', function(req, res) {
   const {message} = req.body
 
   //console.log(message)
